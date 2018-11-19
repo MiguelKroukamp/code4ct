@@ -65,7 +65,7 @@ a:hover {
 
 .landingPage {
     // width: 850px;
-    height: 50vh;
+    height: 90vh;
     font-family: Poppins;
     font-size: 25px;
     font-weight: 600;
@@ -75,16 +75,20 @@ a:hover {
     letter-spacing: normal;
     text-align: center;
     color: #e8e8e8;
+    background-image: url(../img/untitled-0932.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     // background-color: black;
     // width: 960px;
 
     // height: 425px;
   
-    background-color: #252525;
+    // background-color: #252525;
 
 h1 {
     font-weight: 600px;
     width: 850px;
+    margin: 0;
 }
 
 p {
@@ -99,5 +103,6 @@ p {
     letter-spacing: normal;
     text-align: center;
     color: #e8e8e8;
+    margin: 0;
 }
 }

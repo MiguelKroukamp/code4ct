@@ -31,7 +31,7 @@ nav {
     background-color: #e7e7e7; }
 
 .landingPage {
-  height: 50vh;
+  height: 90vh;
   font-family: Poppins;
   font-size: 25px;
   font-weight: 600;
@@ -41,10 +41,13 @@ nav {
   letter-spacing: normal;
   text-align: center;
   color: #e8e8e8;
-  background-color: #252525; }
+  background-image: url(../img/untitled-0932.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
   .landingPage h1 {
     font-weight: 600px;
-    width: 850px; }
+    width: 850px;
+    margin: 0; }
   .landingPage p {
     width: 835px;
     height: 20.5px;
@@ -56,6 +59,7 @@ nav {
     line-height: 1.79;
     letter-spacing: normal;
     text-align: center;
-    color: #e8e8e8; }
+    color: #e8e8e8;
+    margin: 0; }
 
 /*# sourceMappingURL=base.css.map */
