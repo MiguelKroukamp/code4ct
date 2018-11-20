@@ -86,4 +86,14 @@ nav {
     transition: all 0.5s;
     padding: 5px; }
 
+footer {
+  background-color: #e2a19a;
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  footer img {
+    height: 20px;
+    width: 20px; }
+
 /*# sourceMappingURL=main.css.map */
