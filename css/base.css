@@ -21,7 +21,8 @@ nav {
     color: #e2a19a; }
   .navBar .searchBar {
     text-align: right;
-    color: #666666; }
+    color: #666666;
+    display: contents; }
 
 .landingPage {
   height: 90vh;
@@ -36,15 +37,15 @@ nav {
   color: #e8e8e8;
   background-image: url(../img/untitled-0932.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .landingPage h1 {
     font-weight: 600px;
     width: 850px;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    margin: 0; }
   .landingPage p {
     width: 780px;
     font-family: Poppins;
@@ -56,16 +57,33 @@ nav {
     letter-spacing: normal;
     text-align: center;
     color: #e8e8e8;
-    margin-top: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  .landingPage #btn {
-    position: relative;
-    top: 60%;
-    left: 2.5%;
-    transform: translate(-50%, -50%);
-    display: inline-block; }
+    margin-top: 20px; }
+  .landingPage #btn1 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: #e2a19a;
+    color: #e8e8e8; }
+  .landingPage #btn2 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: transparent;
+    color: #e8e8e8; }
+  .landingPage #btn1:hover {
+    background-color: #e2a19a;
+    width: 160px;
+    transition: all 0.5s;
+    padding: 5px; }
+  .landingPage #btn2:hover {
+    width: 160px;
+    transition: all 0.5s;
+    padding: 5px; }
 
 /*# sourceMappingURL=base.css.map */
