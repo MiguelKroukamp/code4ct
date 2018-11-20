@@ -14,7 +14,7 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0;
-    
+
 // links styling for navbar 
 a {
     text-decoration: none;
@@ -104,6 +104,17 @@ p {
     transition: all 0.5s;
     padding: 5px;
 }
+}
+
+.square {
+    display: grid;
+    grid-template-columns: (2);
+    grid-gap: 10px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
 }
 
 // footer styling starts here
