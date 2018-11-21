@@ -1,8 +1,8 @@
 // navbar styling starts here
-nav {
-    background-color: #f9f9f9;
-    padding: 10px;
-}
+// nav {
+//     background-color: #f9f9f9;
+//     padding: 10px;
+// }
 .navBar {
     font-family: Poppins;
     font-size: 16px;
@@ -14,6 +14,11 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 // links styling for navbar 
 a {
@@ -34,7 +39,7 @@ a:hover {
 
 // landing page styling starts here
 .landingPage {
-    height: 91.7vh;
+    height: 100vh;
     font-family: Poppins;
     font-size: 25px;
     font-weight: 600;
@@ -51,6 +56,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 // heading styling starts here
 h1 {
     font-weight: 600px;
