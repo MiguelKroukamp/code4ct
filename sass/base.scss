@@ -1,8 +1,7 @@
-// navbar styling starts here
-// nav {
-//     background-color: #f9f9f9;
-//     padding: 10px;
-// }
+html {
+    margin: 0 auto;
+    padding: 0;
+}
 .navBar {
     font-family: Poppins;
     font-size: 16px;
@@ -33,6 +32,9 @@ a:hover {
     text-align: right;
     color: #666666;
     display: contents;
+    i {
+        color: #e2a19a;
+    }
 }
 }
 // navbar styling ends here
@@ -88,6 +90,7 @@ p {
     font-weight: 600;
     background-color: #e2a19a;
     color: #e8e8e8;
+    border: 1px solid white;
 }
 #btn2 {
     display: inline-block;
@@ -98,17 +101,21 @@ p {
     font-weight: 600;
     background-color: transparent;
     color: #e8e8e8;
+    border: 1px solid white;
 }
 #btn1:hover {
     background-color: #e2a19a;
-    width: 160px;
+    width: 180px;
     transition: all 0.5s;
     padding: 5px;
+    border: none;
 }
 #btn2:hover {
-    width: 160px;
+    width: 180px;
     transition: all 0.5s;
     padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 }
 
@@ -129,9 +136,16 @@ footer {
     font-family: Poppins;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0;
+    
 img {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
+    padding: 0 6px 0 6px;
+}
+p {
+    display: inline-block;
 }
 }

@@ -1,3 +1,7 @@
+html {
+  margin: 0 auto;
+  padding: 0; }
+
 .navBar {
   font-family: Poppins;
   font-size: 16px;
@@ -24,6 +28,8 @@
     text-align: right;
     color: #666666;
     display: contents; }
+    .navBar .searchBar i {
+      color: #e2a19a; }
 
 .landingPage {
   height: 100vh;
@@ -67,7 +73,8 @@
     font-family: Poppins;
     font-weight: 600;
     background-color: #e2a19a;
-    color: #e8e8e8; }
+    color: #e8e8e8;
+    border: 1px solid white; }
   .landingPage #btn2 {
     display: inline-block;
     width: 150px;
@@ -76,16 +83,20 @@
     font-family: Poppins;
     font-weight: 600;
     background-color: transparent;
-    color: #e8e8e8; }
+    color: #e8e8e8;
+    border: 1px solid white; }
   .landingPage #btn1:hover {
     background-color: #e2a19a;
-    width: 160px;
+    width: 180px;
     transition: all 0.5s;
-    padding: 5px; }
+    padding: 5px;
+    border: none; }
   .landingPage #btn2:hover {
-    width: 160px;
+    width: 180px;
     transition: all 0.5s;
-    padding: 5px; }
+    padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .square {
   display: grid;
@@ -102,9 +113,14 @@ footer {
   font-family: Poppins;
   display: flex;
   align-items: center;
-  flex-direction: column; }
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 0; }
   footer img {
-    height: 20px;
-    width: 20px; }
+    height: 18px;
+    width: 18px;
+    padding: 0 6px 0 6px; }
+  footer p {
+    display: inline-block; }
 
 /*# sourceMappingURL=base.css.map */
