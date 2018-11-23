@@ -148,6 +148,17 @@ html {
     width: 250px;
     height: 200px; }
 
+.programs {
+  display: inline-flex;
+  text-align: center;
+  color: #ffff;
+  background-color: #121212;
+  height: 40vh;
+  align-items: center;
+  font-family: poppins;
+  width: 100%;
+  justify-content: space-around; }
+
 footer {
   background-color: #e2a19a;
   font-family: Poppins;

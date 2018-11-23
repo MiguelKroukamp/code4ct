@@ -181,6 +181,27 @@ p {
 
 }
 
+.programs {
+    display: inline-flex;
+    // flex-direction: column;
+    text-align: center;
+    color: #ffff;
+    background-color: #121212;
+    height: 40vh;
+    align-items: center;
+    font-family: poppins;
+    width: 100%;
+    justify-content: space-around;
+    // .coding {
+    //     width: 300px;
+    // }.communication {
+    //     width: 300px;
+    // }.problemSolving {
+    //     width: 300px;
+    // }.careerGuidance {
+    //     width: 300px;
+    // }
+}
 
 // footer styling starts here
 footer {
