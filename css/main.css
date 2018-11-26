@@ -158,6 +158,32 @@ html {
   font-family: poppins;
   width: 100%;
   justify-content: space-around; }
+  .programs .courses {
+    padding: 0 50px 0 50px; }
+  .programs .communication {
+    padding: 0 50px 0 50px; }
+  .programs .problemSolving {
+    padding: 0 50px 0 50px; }
+  .programs .careerGuidance {
+    padding: 0 50px 0 50px; }
+
+.coursesImg {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 3fr auto;
+  padding-left: 50px; }
+
+.thumbnail5 {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+  grid-gap: 10px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  width: 250px;
+  height: 200px; }
 
 footer {
   background-color: #e2a19a;
