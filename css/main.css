@@ -148,6 +148,25 @@ html {
     width: 250px;
     height: 200px; }
 
+.programs {
+  display: inline-flex;
+  text-align: center;
+  color: #ffff;
+  background-color: #121212;
+  height: 40vh;
+  align-items: center;
+  font-family: poppins;
+  width: 100%;
+  justify-content: space-around; }
+  .programs .coding {
+    padding: 0 50px 0 50px; }
+  .programs .communication {
+    padding: 0 50px 0 50px; }
+  .programs .problemSolving {
+    padding: 0 50px 0 50px; }
+  .programs .careerGuidance {
+    padding: 0 50px 0 50px; }
+
 .courses {
   padding: 50px 180px 50px 180px; }
 
@@ -182,24 +201,36 @@ html {
   border: 1px solid black;
   padding: 10px; }
 
-.programs {
-  display: inline-flex;
-  text-align: center;
-  color: #ffff;
-  background-color: #121212;
-  height: 40vh;
-  align-items: center;
-  font-family: poppins;
+.courses {
+  padding: 50px 180px 50px 180px; }
+
+.membersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.teamMembers {
   width: 100%;
-  justify-content: space-around; }
-  .programs .coding {
-    padding: 0 50px 0 50px; }
-  .programs .communication {
-    padding: 0 50px 0 50px; }
-  .programs .problemSolving {
-    padding: 0 50px 0 50px; }
-  .programs .careerGuidance {
-    padding: 0 50px 0 50px; }
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins; }
+
+.members {
+  display: inline-grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 2fr auto; }
+
+.info {
+  display: grid;
+  grid-template-columns: 2;
+  grid-gap: 10px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  width: 250px;
+  height: 200px; }
 
 footer {
   background-color: #e2a19a;
