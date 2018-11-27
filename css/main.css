@@ -148,6 +148,9 @@ html {
     width: 250px;
     height: 200px; }
 
+.courses {
+  padding: 50px 180px 50px 180px; }
+
 .coursesContent {
   width: 100%;
   height: 100vh;
