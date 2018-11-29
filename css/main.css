@@ -237,6 +237,14 @@ html {
   width: 100%;
   height: 200px; }
 
+.carouselContainer {
+  display: block;
+  margin: 0 auto;
+  height: 178px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: black; }
+
 footer {
   background-color: #e2a19a;
   font-family: Poppins;
