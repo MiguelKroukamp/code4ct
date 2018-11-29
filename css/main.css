@@ -32,7 +32,7 @@ html {
   .navBar .searchBar {
     text-align: right;
     color: #666666;
-    display: contents; }
+    display: content; }
     .navBar .searchBar i {
       color: #e2a19a; }
 
@@ -201,7 +201,7 @@ html {
   border: 1px solid black;
   padding: 10px; }
 
-.courses {
+.teamMembersContainer {
   padding: 50px 180px 50px 180px; }
 
 .membersContainer {

@@ -37,7 +37,7 @@ a:hover {
 .searchBar {
     text-align: right;
     color: #666666;
-    display: contents;
+    display: content;
     i {
         color: #e2a19a;
     }
@@ -250,7 +250,7 @@ p {
 }
 
 // team memberss container styling starts here 
-.courses {
+.teamMembersContainer {
     padding: 50px 180px 50px 180px;
 }
 .membersContainer {
@@ -284,6 +284,8 @@ p {
     height: 200px;
     // padding-right: 50px;
 }
+
+
 
 // footer styling starts here
 footer {
