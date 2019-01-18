@@ -1,0 +1,401 @@
+// // home page styling
+
+// .navBar {
+//     text-align: center;
+//     margin: 0;
+//     padding: 0;
+//     padding: 10px;
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// img {
+//     height: 50px;
+//     position: relative;
+//     right: 530px;
+// }
+
+// // links styling for navbar 
+// a {
+//     padding: 10px;
+// }    
+// .searchBar {
+//     text-align: right;
+//     display: flex;
+//     position: relative;
+//     left: 280px;
+// }
+// }
+
+// .landingPage {
+//     height: 100vh;
+//     text-align: center;
+//     display: flex;
+//     h1 {
+//         text-align: center;
+//     }
+//     .landingPageContent {
+//         margin: auto;
+//         width: 70%;
+//         p {
+//             text-align: center;
+//         }
+//     }
+
+//         // button styling starts here
+// #btn1 {
+//     display: inline-block;
+//     width: 150px;
+//     height: 50px;
+// }
+// #btn2 {
+//     display: inline-block;
+//     width: 150px;
+//     height: 50px;
+// }
+// #btn1:hover {
+//     width: 180px;
+//     padding: 5px;
+// }
+// #btn2:hover {
+//     width: 180px;
+// }
+// }
+
+// .whoAreWe {
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     grid-gap: 10px;
+//     // border: 1px solid black;
+//     margin: auto;
+//     width: 70%;
+//     padding: 10% 0 10% 0;
+//     img {
+//         width: 270px;
+//         height: 213px;
+//     }
+//     .whoAreWeImgs {
+//         display: grid;
+//         grid-template-columns: auto auto;
+//         grid-gap: 10px;
+//       }
+//       button {
+//         height: 30px;
+//         width: 130px;
+//     }
+//     button:hover {
+//         width: 150px;
+//     }
+//   }
+
+//   .courses {
+//     text-align: center;
+//     .coursesContent {
+//         width: 70%;
+//         padding: 4% 0 4% 0;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-evenly;
+//         grid-column-gap: 30px;
+//     }
+// }
+
+// .ourExcitingCourses {
+//     margin: auto;
+//     width: 70%;
+//     padding: 10% 0 2.5% 0;
+//     #headingExcitingCourses {
+//         display: inline-grid;
+//     }
+//     img {
+//         width: 280px;
+//         height: 200px;
+//     }
+//     .imgsContainer{
+//         display: inline-flex;
+//         #ourExcitingCoursesImgs {
+//             display: grid;
+//             grid-template-columns: auto auto;
+//             grid-gap: 10px;
+//         }
+//     }
+//     .spanImg {
+//         img{
+//             height: 410px;
+//             width: 590px;
+//         }
+//     }
+// }
+
+// .meetOurTeam {
+//     margin: auto;
+//     width: 70%;
+//     padding: 2.5% 0 10% 0;
+//     #headingMeetOurTeam {
+//         display: inline-grid;
+//     }
+//     img {
+//         width: 270px;
+//         height: 250px;
+//     }
+//     #meetOurTeamImgs {
+//         display: grid;
+//         grid-template-columns: auto auto;
+//         .container {
+//             display: grid;
+//             grid-template-columns: auto auto;
+//             grid-gap: 10px;
+//           }
+//     }
+// }
+
+// .stats {
+//     display: flex;
+//     text-align: center;
+//     height: 300px;
+//     .statsContent {
+//         width: 70%;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-evenly;
+//     }
+// }
+
+// .subscribe {
+//     text-align: center;
+//     padding: 4% 0 4% 0;
+//     #submitBtn {
+//         display: inline-flex;
+//         text-align: center;
+//         input {
+//             width: 370px;
+//             height: 40px;
+//             text-align: left;
+//             padding-left: 5%;
+//             border-radius: 3px;
+//         }
+//         button {
+//             width: 100px;
+//             height: 42px;
+//         }
+//     }
+// }
+
+// .carousel {
+//     display: flex;
+//     align-items: center;
+//     #carouselImgs{
+//         display: flex;
+//         width: 100%;
+//         margin: auto;
+//         justify-content: space-evenly;
+//         height: 222px;
+//         align-items: center;
+//     }
+//     img {
+//         height: 27px;
+//         width: 137px;
+//     }
+// }
+
+// .footerContentContainer {
+//     background-color: #f9f9f9;
+//     .footerContact {
+//         display: flex;
+//         margin: auto;
+//         width: 70%;
+//         justify-content: space-evenly;
+//         padding: 4% 0 4% 0;
+//         #footerLeft {
+//             width: 271px;
+//         }
+//         h3 {
+//             font-size: 16px;
+//         }
+//         p {
+//             font-size: 14px;
+//         }
+//         #footerRight {
+//             line-height: 2.5;
+//             display: flex;
+//         }
+//     }
+// }
+
+// footer {
+//     display: inline-flex;
+//     width: 100%;
+//     justify-content: space-evenly;
+//     height: 40px;
+//     font-size: 14px;
+//     align-items: center;
+//     .icons {
+//         display: inline-flex;
+//         align-items: center;
+//         img {
+//             width: 14px;
+//             height: 14px;
+//             padding: 0 10px 0 10px;
+//         }
+//     }
+// }
+
+
+// // ------------------------------------------------------------------------------------------------
+
+// // about page styling
+
+
+// .aboutLandingPage {
+//     height: 300px;
+//     text-align: center;
+//     display: flex;
+//     .aboutLandingPageContent {
+//         margin: auto;
+//         width: 70%;
+//         // font-family: Poppins;
+//     }
+// }
+
+// .welcomeSection {
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     grid-gap: 10px;
+//     margin: auto;
+//     width: 70%;
+//     padding: 10% 0 10% 0;
+//     img {
+//         width: 570px;
+//         height: 380px;
+//     }
+//     .welcomeSectionImgs {
+//         display: grid;
+//         grid-template-columns: auto;
+//         grid-gap: 10px;
+//       }
+//       button {
+//         height: 30px;
+//         width: 130px;
+//     }
+//     button:hover {
+//         width: 150px;
+//         padding: 5px;
+//     }
+// }
+
+// .aboutWhoAreWe {
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     grid-gap: 10px;
+//     margin: auto;
+//     height: 550px;
+//     .aboutWhoAreWeContent{
+//         margin-right: 30%;
+//     }
+//     img {
+//         width: 910px;
+//         height: 550px;
+//     }
+//     .aboutWhoAreWeImgs {
+//         display: grid;
+//         grid-template-columns: auto;
+//         grid-gap: 10px;
+//       }
+//   }
+
+//   .skillsStats {
+//     text-align: center;
+//     .skillsStatsContent {
+//         width: 70%;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-evenly;
+//     }
+// }
+
+// // -------------------------------------------------------------------------------------------
+
+// // portfolio page styling
+
+// .portfolioLandingPage {
+//     height: 300px;
+//     text-align: center;
+//     display: flex;
+//     .portfolioLandingPageContent {
+//         margin: auto;
+//         width: 70%;
+//     }
+// }
+
+// .portfolioContent {
+//     margin: auto;
+//     width: 70%;
+//     text-align: center;
+// }
+
+// .row {
+//     display: flex;
+//     padding: 0 4px;
+//   }
+  
+//   .column {
+//     flex: 15%;
+//     max-width: 15%;
+//     padding: 0 4px;
+//   }
+  
+//   .column img {
+//     margin-top: 8px;
+//     vertical-align: middle;
+//   }
+
+//   //   gallery button styling starts here
+//   .galleryBtn {
+//     margin: auto;
+//     width: 70%;
+//     text-align: center;
+//     a {
+//         border: 1px solid grey;
+//         padding: 8px 16px;
+//         text-decoration: none;
+//     }
+//   }
+
+// //   --------------------------------------------------------------------------------------
+
+// // contact page styling
+
+// .contactLandingPage {
+//     height: 300px;
+//     text-align: center;
+//     display: flex;
+//     .contactLandingPageContent {
+//         margin: auto;
+//         width: 70%;
+//     }
+// }
+
+// .contactForm {
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     grid-gap: 10px;
+//     margin: auto;
+//     width: 70%;
+//     .form {
+//         width: 500px;
+//         height: 300px;
+//     }
+//     .contactInfo {
+//         display: grid;
+//         grid-template-columns: auto;
+//         margin-right: 30%;
+//       }
+//   }
+
+//   .map {
+//     width: 100%;
+//     height: 60vh;
+//     background-color: grey;
+//   }
