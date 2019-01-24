@@ -2,6 +2,8 @@
 html {
     font-family: $font-family;
 }
+
+// navbar styling starts here
 .navBar {
     text-align: center;
     margin: 0;
@@ -44,6 +46,7 @@ a:hover {
 }
 }
 
+// home landing page starts here
 .landingPage {
     height: 100vh;
     // background-color: black;
@@ -82,47 +85,47 @@ a:hover {
         }
     }
     // button styling starts here
-#btn1 {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    font-family: Poppins;
-    font-weight: 600;
-    background-color: #e2a19a;
-    color: #e8e8e8;
-    border: 1px solid white;
-}
-#btn2 {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    font-family: Poppins;
-    font-weight: 600;
-    background-color: transparent;
-    color: #e8e8e8;
-    border: 1px solid white;
-}
-#btn1:hover {
-    background-color: #e2a19a;
-    width: 180px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none;
-}
-#btn2:hover {
-    width: 180px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    #btn1 {
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        border-radius: 3px;
+        font-family: Poppins;
+        font-weight: 600;
+        background-color: #e2a19a;
+        color: #e8e8e8;
+        border: 1px solid white;
+    }
+    #btn2 {
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        border-radius: 3px;
+        font-family: Poppins;
+        font-weight: 600;
+        background-color: transparent;
+        color: #e8e8e8;
+        border: 1px solid white;
+    }
+
+    // button hover styling
+    #btn1:hover {
+        background-color: #e2a19a;
+        width: 180px;
+        transition: all 0.5s;
+        padding: 5px;
+        border: none;
+    }
+    #btn2:hover {
+        width: 180px;
+        transition: all 0.5s;
+        padding: 5px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
-
-
-
+// who are we section styling starts here
 .whoAreWe {
     display: grid;
     grid-template-columns: auto auto;
@@ -172,7 +175,7 @@ a:hover {
     }
   }
 
-
+// courses section styling starts here
 .courses {
     text-align: center;
     color: white;
@@ -196,7 +199,7 @@ a:hover {
     }
 }
 
-
+// our exciting courses section styling starts here
 .ourExcitingCourses {
     // display: grid;
     // grid-template-columns: auto auto;
@@ -231,7 +234,7 @@ a:hover {
 }
 
   
-
+// meet our team section styling starts here
 .meetOurTeam {
     // display: grid;
     // grid-template-columns: auto auto;
@@ -260,7 +263,7 @@ a:hover {
     }
     }
 
-
+// stats section styling starts here
 .stats {
     display: flex;
     text-align: center;
@@ -278,6 +281,7 @@ a:hover {
     }
 }
 
+// subscribe section styling starts here
 .subscribe {
     text-align: center;
     padding: 4% 0 4% 0;
@@ -303,6 +307,7 @@ a:hover {
     }
 }
 
+// carousel section styling starts heres
 .carousel {
     display: flex;
     align-items: center;
@@ -321,6 +326,7 @@ a:hover {
     }
 }
 
+// footer section styling starts here
 .footerContentContainer {
     background-color: #f9f9f9;
     .footerContact {
@@ -369,7 +375,7 @@ footer {
 
 // about page styling
 
-
+// about landing page section styling starts here
 .aboutLandingPage {
     height: 300px;
     background-color: #818181;
@@ -387,7 +393,7 @@ footer {
     }
 }
 
-
+// welcome section styling starts here
 .welcomeSection {
     display: grid;
     grid-template-columns: auto auto;
@@ -433,6 +439,7 @@ footer {
     }
 }
 
+// who are we section styling starts here
   .aboutWhoAreWe {
     display: grid;
     grid-template-columns: auto auto;
@@ -479,6 +486,7 @@ footer {
 
 // portfolio page styling
 
+// portfolio landing page section starts here
 .portfolioLandingPage {
     height: 300px;
     background-color: #818181;
@@ -495,6 +503,7 @@ footer {
     }
 }
 
+// portfolio section styling starts here
 .portfolioContent {
     margin: auto;
     width: 70%;
@@ -516,8 +525,9 @@ footer {
 //     max-width: 15%;
 //     padding: 0 4px;
 //   }
-  
-  .column img {
+
+// images styling starts here
+.column img {
     margin-top: 8px;
     vertical-align: middle;
   }
@@ -552,6 +562,8 @@ footer {
 //     height: 60vh;
 //     background-color: grey;
 //   }
+
+// contact landing page section styling starts here
 .contactLandingPage {
     height: 300px;
     background-color: #818181;
@@ -601,6 +613,7 @@ footer {
 
 //   courses page styling starts here
 
+// courses landing page section starts here
 .coursesLandingPage {
     height: 300px;
     background-color: #818181;
@@ -617,6 +630,7 @@ footer {
     }
 }
 
+// courses content section styling starts here
 .coursesPageContent {
     margin: auto;
     width: 70%;
