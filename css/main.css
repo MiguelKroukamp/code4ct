@@ -4,11 +4,79 @@
 html {
   font-family: Poppins; }
 
+.navBar a {
+  color: #666666; }
+.navBar a:hover {
+  color: #e2a19a; }
+.navBar .searchBar {
+  color: #666666; }
+  .navBar .searchBar i {
+    color: #e2a19a; }
+
+.landingPage {
+  color: white; }
+  .landingPage h1 {
+    color: #e8e8e8; }
+  .landingPage .landingPageContent p {
+    color: #e8e8e8; }
+  .landingPage #btn1 {
+    color: #e8e8e8; }
+  .landingPage #btn2 {
+    color: #e8e8e8; }
+
+.whoAreWe h3 {
+  color: #555555; }
+.whoAreWe #firstParagraph {
+  color: #555555; }
+
+.courses {
+  color: white; }
+
+.stats {
+  color: white; }
+
+.aboutLandingPage {
+  color: #555555; }
+  .aboutLandingPage .aboutLandingPageContent a {
+    color: #e2a19a; }
+
+.welcomeSection h3 {
+  color: #555555; }
+.welcomeSection p {
+  color: #555555; }
+
+.skillsStats {
+  color: white; }
+  .skillsStats .skillsStatsContent hr {
+    color: #e2a19a; }
+
+.portfolioLandingPage {
+  color: #555555; }
+  .portfolioLandingPage .portfolioLandingPageContent a {
+    text-decoration: none;
+    color: #e2a19a; }
+
+.galleryBtn {
+  color: grey; }
+
+.contactLandingPage {
+  color: #555555; }
+  .contactLandingPage .contactLandingPageContent a {
+    text-decoration: none;
+    color: #e2a19a; }
+
+.coursesLandingPage {
+  color: #555555; }
+  .coursesLandingPage .coursesLandingPageContent a {
+    color: #e2a19a; }
+
+html {
+  font-family: Poppins; }
+
 .navBar {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -16,90 +84,40 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
   line-height: 30px; }
   .navBar img {
     height: 50px;
     position: relative;
     right: 300px; }
   .navBar a {
-    text-decoration: none;
-    padding: 10px;
-    color: #666666; }
-  .navBar a:hover {
-    color: #e2a19a; }
+    padding: 10px; }
   .navBar .searchBar {
-    text-align: right;
-    color: #666666;
     display: flex;
     position: relative;
     left: 280px; }
-    .navBar .searchBar i {
-      color: #e2a19a; }
 
 .landingPage {
   height: 100vh;
-  color: white;
-  text-align: center;
   display: flex;
   background-image: url(../img/untitled-0932.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
-  .landingPage h1 {
-    font-size: 50px;
-    font-weight: 600px;
-    font-size: 50px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 53px;
-    letter-spacing: normal;
-    text-align: center;
-    color: #e8e8e8; }
   .landingPage .landingPageContent {
     margin: auto;
     width: 70%; }
-    .landingPage .landingPageContent p {
-      font-size: 14.5px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.79;
-      letter-spacing: normal;
-      text-align: center;
-      color: #e8e8e8; }
   .landingPage #btn1 {
     display: inline-block;
     width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    font-family: Poppins;
-    font-weight: 600;
-    background-color: #e2a19a;
-    color: #e8e8e8;
-    border: 1px solid white; }
+    height: 50px; }
   .landingPage #btn2 {
     display: inline-block;
     width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    font-family: Poppins;
-    font-weight: 600;
-    background-color: transparent;
-    color: #e8e8e8;
-    border: 1px solid white; }
+    height: 50px; }
   .landingPage #btn1:hover {
-    background-color: #e2a19a;
-    width: 180px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none; }
+    width: 180px; }
   .landingPage #btn2:hover {
     width: 180px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.5); }
+    padding: 5px; }
 
 .whoAreWe {
   display: grid;
@@ -108,53 +126,33 @@ html {
   margin: auto;
   width: 70%;
   padding: 10% 0 10% 0; }
-  .whoAreWe h3 {
-    font-size: 24px;
-    color: #555555; }
-  .whoAreWe #firstParagraph {
-    color: #555555;
-    font-size: 16px; }
   .whoAreWe img {
     width: 270px;
-    height: 213px;
-    border: 1px solid black; }
+    height: 213px; }
   .whoAreWe .whoAreWeImgs {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px; }
   .whoAreWe button {
     height: 30px;
-    width: 130px;
-    border-radius: 3px;
-    font-family: Poppins;
-    background-color: transparent;
-    border: 1px solid #666666;
-    font-weight: 600; }
+    width: 130px; }
   .whoAreWe button:hover {
     width: 150px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.1); }
+    padding: 5px; }
 
-.courses {
-  text-align: center;
-  color: white;
-  background-color: black; }
-  .courses .coursesContent {
-    width: 70%;
-    padding: 4% 0 4% 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    grid-column-gap: 30px; }
-  .courses h5 {
-    font-size: 20px;
-    margin-top: 0; }
-  .courses img {
-    width: 20%;
-    height: 20%;
-    margin: 30px 0 0 0; }
+.courses .coursesContent {
+  width: 70%;
+  padding: 4% 0 4% 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  grid-column-gap: 30px; }
+.courses h5 {
+  margin-top: 0; }
+.courses img {
+  width: 20%;
+  height: 20%;
+  margin: 30px 0 0 0; }
 
 .ourExcitingCourses {
   margin: auto;
@@ -194,20 +192,14 @@ html {
 
 .stats {
   display: flex;
-  text-align: center;
-  background-color: black;
-  color: white;
   height: 300px; }
   .stats .statsContent {
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-evenly; }
-    .stats .statsContent h5 {
-      border-top: 5px solid #e1918a; }
 
 .subscribe {
-  text-align: center;
   padding: 4% 0 4% 0; }
   .subscribe #submitBtn {
     display: inline-flex;
@@ -215,24 +207,16 @@ html {
     .subscribe #submitBtn input {
       width: 370px;
       height: 40px;
-      background-color: #f9f9f9;
-      text-align: left;
-      padding-left: 5%;
-      border-radius: 3px;
-      border: none; }
+      padding-left: 5%; }
     .subscribe #submitBtn button {
       width: 100px;
-      height: 42px;
-      background-color: #e2a19a;
-      border-radius: 3px;
-      border: none; }
+      height: 42px; }
 
 .carousel {
   display: flex;
   align-items: center; }
   .carousel #carouselImgs {
     display: flex;
-    background-color: black;
     width: 100%;
     margin: auto;
     justify-content: space-evenly;
@@ -242,32 +226,25 @@ html {
     height: 27px;
     width: 137px; }
 
-.footerContentContainer {
-  background-color: #f9f9f9; }
-  .footerContentContainer .footerContact {
-    display: flex;
-    margin: auto;
-    width: 70%;
-    justify-content: space-evenly;
-    padding: 4% 0 4% 0; }
-    .footerContentContainer .footerContact #footerLeft {
-      width: 271px; }
-    .footerContentContainer .footerContact h3 {
-      font-size: 16px;
-      margin-bottom: 0; }
-    .footerContentContainer .footerContact p {
-      font-size: 14px; }
-    .footerContentContainer .footerContact #footerRight {
-      line-height: 2.5;
-      display: flex; }
+.footerContentContainer .footerContact {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  justify-content: space-evenly;
+  padding: 4% 0 4% 0; }
+  .footerContentContainer .footerContact #footerLeft {
+    width: 271px; }
+  .footerContentContainer .footerContact h3 {
+    margin-bottom: 0; }
+  .footerContentContainer .footerContact #footerRight {
+    line-height: 2.5;
+    display: flex; }
 
 footer {
   display: inline-flex;
-  background-color: pink;
   width: 100%;
   justify-content: space-evenly;
   height: 40px;
-  font-size: 14px;
   align-items: center; }
   footer .icons {
     display: inline-flex;
@@ -279,16 +256,12 @@ footer {
 
 .aboutLandingPage {
   height: 300px;
-  background-color: #818181;
-  color: #555555;
-  text-align: center;
   display: flex; }
   .aboutLandingPage .aboutLandingPageContent {
     margin: auto;
     width: 70%; }
     .aboutLandingPage .aboutLandingPageContent a {
-      text-decoration: none;
-      color: #e2a19a; }
+      text-decoration: none; }
 
 .welcomeSection {
   display: grid;
@@ -297,34 +270,19 @@ footer {
   margin: auto;
   width: 70%;
   padding: 10% 0 10% 0; }
-  .welcomeSection h3 {
-    font-size: 24px;
-    color: #555555; }
-  .welcomeSection p {
-    color: #555555;
-    font-size: 16px; }
   .welcomeSection img {
     width: 570px;
-    height: 380px;
-    border: 1px solid black; }
+    height: 380px; }
   .welcomeSection .welcomeSectionImgs {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px; }
   .welcomeSection button {
     height: 30px;
-    width: 130px;
-    border-radius: 3px;
-    font-family: Poppins;
-    background-color: #e2a19a;
-    font-weight: 600;
-    border: none; }
+    width: 130px; }
   .welcomeSection button:hover {
     width: 150px;
-    transition: all 0.5s;
-    padding: 5px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.1); }
+    padding: 5px; }
 
 .aboutWhoAreWe {
   display: grid;
@@ -337,51 +295,35 @@ footer {
     margin-right: 30%; }
   .aboutWhoAreWe img {
     width: 910px;
-    height: 550px;
-    border: 1px solid black; }
+    height: 550px; }
   .aboutWhoAreWe .aboutWhoAreWeImgs {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px; }
 
-.skillsStats {
-  text-align: center;
-  background-color: black;
-  color: white; }
-  .skillsStats .skillsStatsContent {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly; }
-    .skillsStats .skillsStatsContent hr {
-      color: #e2a19a;
-      border-radius: 50%; }
+.skillsStats .skillsStatsContent {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly; }
 
 .portfolioLandingPage {
   height: 300px;
-  background-color: #818181;
-  color: #555555;
-  text-align: center;
   display: flex; }
   .portfolioLandingPage .portfolioLandingPageContent {
     margin: auto;
     width: 70%; }
-    .portfolioLandingPage .portfolioLandingPageContent a {
-      text-decoration: none;
-      color: #e2a19a; }
 
 .portfolioContent {
   margin: auto;
   width: 70%;
-  text-align: center;
   padding: 10% 0 10% 0; }
 
 .row {
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin: auto;
-  justify-items: center;
-  background-color: #818181; }
+  justify-items: center; }
 
 .column img {
   margin-top: 8px;
@@ -390,26 +332,16 @@ footer {
 .galleryBtn {
   margin: auto;
   width: 70%;
-  text-align: center;
-  color: grey;
   padding: 50px; }
   .galleryBtn a {
-    border: 1px solid grey;
-    padding: 8px 16px;
-    text-decoration: none; }
+    padding: 8px 16px; }
 
 .contactLandingPage {
   height: 300px;
-  background-color: #818181;
-  color: #555555;
-  text-align: center;
   display: flex; }
   .contactLandingPage .contactLandingPageContent {
     margin: auto;
     width: 70%; }
-    .contactLandingPage .contactLandingPageContent a {
-      text-decoration: none;
-      color: #e2a19a; }
 
 .contactForm {
   padding: 5% 0 5% 0; }
@@ -427,68 +359,42 @@ footer {
 
 .map {
   width: 100%;
-  height: 60vh;
-  background-color: grey; }
+  height: 60vh; }
 
 .coursesLandingPage {
   height: 300px;
-  background-color: #818181;
-  color: #555555;
-  text-align: center;
   display: flex; }
   .coursesLandingPage .coursesLandingPageContent {
     margin: auto;
     width: 70%; }
-    .coursesLandingPage .coursesLandingPageContent a {
-      text-decoration: none;
-      color: #e2a19a; }
 
 .coursesPageContent {
   margin: auto;
   width: 70%;
-  text-align: center;
   padding: 10% 0 10% 0; }
   .coursesPageContent .cartItemsColumn1 {
     margin: 2%; }
     .coursesPageContent .cartItemsColumn1 p {
-      border: solid 1px #818181;
       padding: 30px; }
     .coursesPageContent .cartItemsColumn1 button {
       height: 30px;
       width: 130px;
-      border-radius: 3px;
-      font-family: Poppins;
-      background-color: #e2a19a;
-      font-weight: 600;
-      border: none;
       margin-top: 50px; }
   .coursesPageContent .cartItemsColumn2 {
     margin: 2%; }
     .coursesPageContent .cartItemsColumn2 p {
-      border: solid 1px #818181;
       padding: 30px; }
     .coursesPageContent .cartItemsColumn2 button {
       height: 30px;
       width: 130px;
-      border-radius: 3px;
-      font-family: Poppins;
-      background-color: #e2a19a;
-      font-weight: 600;
-      border: none;
       margin-top: 50px; }
   .coursesPageContent .cartItemsColumn3 {
     margin: 2%; }
     .coursesPageContent .cartItemsColumn3 p {
-      border: solid 1px #818181;
       padding: 30px; }
     .coursesPageContent .cartItemsColumn3 button {
       height: 30px;
       width: 130px;
-      border-radius: 3px;
-      font-family: Poppins;
-      background-color: #e2a19a;
-      font-weight: 600;
-      border: none;
       margin-top: 50px; }
 
 .coursesColumns {
@@ -496,6 +402,222 @@ footer {
   grid-template-columns: auto auto auto;
   margin: auto;
   justify-items: center;
+  text-align: center; }
+
+.navBar {
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  line-height: 30px; }
+  .navBar a {
+    text-decoration: none; }
+  .navBar .searchBar {
+    text-align: right; }
+
+.landingPage {
+  text-align: center;
+  display: flex; }
+  .landingPage h1 {
+    font-size: 50px;
+    font-weight: 600px;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 53px;
+    letter-spacing: normal;
+    text-align: center; }
+  .landingPage .landingPageContent {
+    margin: auto;
+    width: 70%; }
+    .landingPage .landingPageContent p {
+      font-size: 14.5px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.79;
+      letter-spacing: normal;
+      text-align: center; }
+  .landingPage #btn1 {
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: #e2a19a;
+    border: 1px solid white; }
+  .landingPage #btn2 {
+    border-radius: 3px;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white; }
+  .landingPage #btn1:hover {
+    background-color: #e2a19a;
+    transition: all 0.5s;
+    border: none; }
+  .landingPage #btn2:hover {
+    transition: all 0.5s;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.whoAreWe h3 {
+  font-size: 24px; }
+.whoAreWe #firstParagraph {
+  font-size: 16px; }
+.whoAreWe img {
+  border: 1px solid black; }
+.whoAreWe button {
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid #666666;
+  font-weight: 600; }
+.whoAreWe button:hover {
+  transition: all 0.5s;
+  padding: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.courses {
+  text-align: center;
+  background-color: black; }
+  .courses h5 {
+    font-size: 20px; }
+
+.stats {
+  text-align: center;
+  background-color: black; }
+  .stats .statsContent h5 {
+    border-top: 5px solid #e1918a; }
+
+.subscribe {
+  text-align: center; }
+  .subscribe #submitBtn {
+    text-align: center; }
+    .subscribe #submitBtn input {
+      background-color: #f9f9f9;
+      text-align: left;
+      border-radius: 3px;
+      border: none; }
+    .subscribe #submitBtn button {
+      background-color: #e2a19a;
+      border-radius: 3px;
+      border: none; }
+
+.carousel {
+  align-items: center; }
+  .carousel #carouselImgs {
+    background-color: black;
+    align-items: center; }
+
+.footerContentContainer {
+  background-color: #f9f9f9; }
+  .footerContentContainer .footerContact h3 {
+    font-size: 16px; }
+  .footerContentContainer .footerContact p {
+    font-size: 14px; }
+  .footerContentContainer .footerContact #footerRight {
+    line-height: 2.5; }
+
+footer {
+  background-color: pink;
+  font-size: 14px; }
+
+.aboutLandingPage {
+  background-color: #818181;
+  text-align: center; }
+  .aboutLandingPage .aboutLandingPageContent {
+    margin: auto;
+    width: 70%; }
+    .aboutLandingPage .aboutLandingPageContent a {
+      text-decoration: none; }
+
+.welcomeSection h3 {
+  font-size: 24px; }
+.welcomeSection p {
+  font-size: 16px; }
+.welcomeSection img {
+  border: 1px solid black; }
+.welcomeSection button {
+  border-radius: 3px;
+  background-color: #e2a19a;
+  font-weight: 600;
+  border: none; }
+.welcomeSection button:hover {
+  transition: all 0.5s;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.aboutWhoAreWe {
+  background-color: #f6f6f6; }
+  .aboutWhoAreWe img {
+    border: 1px solid black; }
+
+.skillsStats {
+  text-align: center;
+  background-color: black; }
+  .skillsStats .skillsStatsContent hr {
+    border-radius: 50%; }
+
+.portfolioLandingPage {
+  background-color: #818181;
+  text-align: center; }
+  .portfolioLandingPage .portfolioLandingPageContent a {
+    text-decoration: none; }
+
+.portfolioContent {
+  text-align: center; }
+
+.row {
+  background-color: #818181; }
+
+.galleryBtn {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  color: grey;
+  padding: 50px; }
+  .galleryBtn a {
+    border: 1px solid grey;
+    text-decoration: none; }
+
+.contactLandingPage {
+  background-color: #818181;
+  text-align: center; }
+  .contactLandingPage .contactLandingPageContent a {
+    text-decoration: none; }
+
+.map {
+  background-color: grey; }
+
+.coursesLandingPage {
+  background-color: #818181;
+  text-align: center; }
+  .coursesLandingPage .coursesLandingPageContent a {
+    text-decoration: none; }
+
+.coursesPageContent {
+  text-align: center; }
+  .coursesPageContent .cartItemsColumn1 p {
+    border: solid 1px #818181; }
+  .coursesPageContent .cartItemsColumn1 button {
+    background-color: #e2a19a;
+    font-weight: 600;
+    border: none; }
+  .coursesPageContent .cartItemsColumn2 p {
+    border: solid 1px #818181; }
+  .coursesPageContent .cartItemsColumn2 button {
+    border-radius: 3px;
+    background-color: #e2a19a;
+    font-weight: 600;
+    border: none; }
+  .coursesPageContent .cartItemsColumn3 p {
+    border: solid 1px #818181; }
+  .coursesPageContent .cartItemsColumn3 button {
+    border-radius: 3px;
+    font-family: Poppins;
+    background-color: #e2a19a;
+    font-weight: 600;
+    border: none; }
+
+.coursesColumns {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

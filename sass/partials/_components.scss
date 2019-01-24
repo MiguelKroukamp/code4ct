@@ -1,0 +1,343 @@
+// navbar styling starts here
+.navBar {
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    line-height: 30px;
+
+// links styling for navbar 
+    a {
+        text-decoration: none;
+    }    
+    .searchBar {
+        text-align: right;
+    }
+}
+
+// home landing page starts here
+.landingPage {
+    text-align: center;
+    display: flex;
+    h1 {
+        font-size: 50px;
+        font-weight: 600px;
+        font-size: 50px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 53px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    .landingPageContent {
+        margin: auto;
+        width: 70%;
+        p {
+            font-size: 14.5px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.79;
+            letter-spacing: normal;
+            text-align: center;
+        }
+    }
+    // button styling starts here
+    #btn1 {
+        font-family: Poppins;
+        font-weight: 600;
+        background-color: #e2a19a;
+        border: 1px solid white;
+    }
+    #btn2 {
+        border-radius: 3px;
+        font-family: Poppins;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    // button hover styling
+    #btn1:hover {
+        background-color: #e2a19a;
+        transition: all 0.5s;
+        border: none;
+    }
+    #btn2:hover {
+        transition: all 0.5s;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+// who are we section styling starts here
+.whoAreWe {
+    h3 {
+        font-size: 24px;
+    }
+    #firstParagraph {
+        font-size: 16px;
+    }
+    img {
+        border: 1px solid black;
+    }
+    button {
+        border-radius: 3px;
+        background-color: transparent;
+        border: 1px solid #666666;
+        font-weight: 600;
+    }
+    button:hover {
+        transition: all 0.5s;
+        padding: 5px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.1)
+    }
+}
+
+// courses section styling starts here
+.courses {
+    text-align: center;
+    background-color: black;
+    h5 {
+        font-size: 20px;
+    }
+}
+
+
+// stats section styling starts here
+.stats {
+    text-align: center;
+    background-color: black;
+    .statsContent {
+        h5 {
+            border-top: 5px solid #e1918a;
+        }
+    }
+}
+
+// subscribe section styling starts here
+.subscribe {
+    text-align: center;
+    #submitBtn {
+        text-align: center;
+        input {
+            background-color: #f9f9f9;
+            text-align: left;
+            border-radius: 3px;
+            border: none;
+        }
+        button {
+            background-color: #e2a19a;
+            border-radius: 3px;
+            border: none;
+        }
+    }
+}
+
+// carousel section styling starts heres
+.carousel {
+    align-items: center;
+    #carouselImgs{
+        background-color: black;
+        align-items: center;
+    }
+}
+
+// footer section styling starts here
+.footerContentContainer {
+    background-color: #f9f9f9;
+    .footerContact {
+        h3 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+        #footerRight {
+            line-height: 2.5;
+        }
+    }
+}
+
+footer {
+    background-color: pink;
+    font-size: 14px;
+}
+
+// ------------------------------------------------------------------------------------------------
+
+// about page styling
+
+// about landing page section styling starts here
+.aboutLandingPage {
+    background-color: #818181;
+    text-align: center;
+    .aboutLandingPageContent {
+        margin: auto;
+        width: 70%;
+        // font-family: Poppins;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// welcome section styling starts here
+.welcomeSection {
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        border: 1px solid black;
+    }
+    button {
+        border-radius: 3px;
+        background-color: #e2a19a;
+        font-weight: 600;
+        border: none;
+    }
+    button:hover {
+        transition: all 0.5s;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.1)
+    }
+}
+
+// who are we section styling starts here
+.aboutWhoAreWe {
+    background-color: #f6f6f6;
+    img {
+        border: 1px solid black;
+    }
+}
+
+.skillsStats {
+    text-align: center;
+    background-color: black;
+    .skillsStatsContent {
+        hr {
+            border-radius: 50%;
+        }
+    }
+}
+
+// -------------------------------------------------------------------------------------------
+
+// portfolio page styling
+
+// portfolio landing page section starts here
+.portfolioLandingPage {
+    background-color: #818181;
+    text-align: center;
+    .portfolioLandingPageContent {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// portfolio section styling starts here
+.portfolioContent {
+    text-align: center;
+}
+
+.row {
+    background-color: #818181;
+}
+
+
+//   gallery button styling starts here
+  .galleryBtn {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    color: grey;
+    padding: 50px;
+    a {
+        border: 1px solid grey;
+        text-decoration: none;
+    }
+  }
+
+//   --------------------------------------------------------------------------------------
+
+// contact page styling
+
+
+// contact landing page section styling starts here
+.contactLandingPage {
+    background-color: #818181;
+    text-align: center;
+    .contactLandingPageContent {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.map {
+    background-color: grey;
+}
+
+// -----------------------------------------------------------------------------------------------
+
+//   courses page styling starts here
+
+// courses landing page section starts here
+.coursesLandingPage {
+    background-color: #818181;
+    text-align: center;
+    .coursesLandingPageContent {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// courses content section styling starts here
+.coursesPageContent {
+    text-align: center;
+    .cartItemsColumn1 {
+        p {
+            border: solid 1px #818181;
+        }
+        button {
+            background-color: #e2a19a;
+            font-weight: 600;
+            border: none;
+        }
+    }
+    .cartItemsColumn2 {
+        p {
+            border: solid 1px #818181;
+        }
+        button {
+            border-radius: 3px;
+            background-color: #e2a19a;
+            font-weight: 600;
+            border: none;
+        }
+    }
+    .cartItemsColumn3 {
+        p {
+            border: solid 1px #818181;
+        }
+        button {
+            border-radius: 3px;
+            font-family: Poppins;
+            background-color: #e2a19a;
+            font-weight: 600;
+            border: none;
+        }
+    }
+
+}
+
+.coursesColumns {
+    text-align: center;
+}
+  

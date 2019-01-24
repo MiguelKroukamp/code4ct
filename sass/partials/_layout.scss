@@ -1,0 +1,477 @@
+// home page styling
+html {
+    font-family: $font-family;
+}
+
+// navbar styling starts here
+.navBar {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    img {
+        height: 50px;
+        position: relative;
+        right: 300px;
+
+    }
+    // links styling for navbar 
+    a {
+        padding: 10px;
+    }    
+    .searchBar {
+        display: flex;
+        position: relative;
+        left: 280px;
+    }
+}
+
+// home landing page starts here
+.landingPage {
+    height: 100vh;
+    display: flex;
+    background-image: url(../img/untitled-0932.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .landingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+    // button styling starts here
+    #btn1 {
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+    }
+    #btn2 {
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+    }
+
+    // button hover styling
+    #btn1:hover {
+        width: 180px;
+    }
+    #btn2:hover {
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.whoAreWe {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    img {
+        width: 270px;
+        height: 213px;
+    }
+    .whoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+
+    }
+      button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// courses section styling starts here
+.courses {
+    .coursesContent {
+        width: 70%;
+        padding: 4% 0 4% 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        grid-column-gap: 30px;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    img {
+        width: 20%;
+        height: 20%;
+        margin: 30px 0 0 0;
+    }
+}
+
+// our exciting courses section styling starts here
+.ourExcitingCourses {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 2.5% 0;
+    #headingExcitingCourses {
+        display: inline-grid;
+    }
+    img {
+        width: 280px;
+        height: 200px;
+    }
+    .imgsContainer{
+        display: inline-flex;
+        #ourExcitingCoursesImgs {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+        }
+    }
+    .spanImg {
+        img{
+            height: 410px;
+            width: 590px;
+        }
+    }
+}
+
+// meet our team section styling starts here
+.meetOurTeam {
+    margin: auto;
+    width: 70%;
+    padding: 2.5% 0 10% 0;
+    #headingMeetOurTeam {
+        display: inline-grid;
+    }
+    img {
+        width: 270px;
+        height: 250px;
+    }
+    #meetOurTeamImgs {
+        display: grid;
+        grid-template-columns: auto auto;
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+
+        }
+    }
+}
+
+// stats section styling starts here
+.stats {
+    display: flex;
+    height: 300px;
+    .statsContent {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+// subscribe section styling starts here
+.subscribe {
+    padding: 4% 0 4% 0;
+    #submitBtn {
+        display: inline-flex;
+        text-align: center;
+        input {
+            width: 370px;
+            height: 40px;
+            padding-left: 5%;
+        }
+        button {
+            width: 100px;
+            height: 42px;
+        }
+    }
+}
+
+// carousel section styling starts heres
+.carousel {
+    display: flex;
+    align-items: center;
+    #carouselImgs{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-evenly;
+        height: 222px;
+        align-items: center;
+    }
+    img {
+        height: 27px;
+        width: 137px;
+    }
+}
+
+// footer section styling starts here
+.footerContentContainer {
+    .footerContact {
+        display: flex;
+        margin: auto;
+        width: 70%;
+        justify-content: space-evenly;
+        padding: 4% 0 4% 0;
+        #footerLeft {
+            width: 271px;
+        }
+        h3 {
+            margin-bottom: 0;
+        }
+        #footerRight {
+            line-height: 2.5;
+            display: flex;
+        }
+    }
+}
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+    .icons {
+        display: inline-flex;
+        align-items: center;
+        img {
+            width: 14px;
+            height: 14px;
+            padding: 0 10px 0 10px;
+        }
+    }
+}
+
+// ------------------------------------------------------------------------------------------------
+
+// about page styling
+
+// about landing page section styling starts here
+.aboutLandingPage {
+    height: 300px;
+    display: flex;
+    .aboutLandingPageContent {
+        margin: auto;
+        width: 70%;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// welcome section styling starts here
+.welcomeSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    img {
+        width: 570px;
+        height: 380px;
+    }
+    .welcomeSectionImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+      }
+    button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.aboutWhoAreWe {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: #f6f6f6;
+    height: 550px;
+    .aboutWhoAreWeContent{
+        margin-right: 30%;
+    }
+    img {
+        width: 910px;
+        height: 550px;
+    }
+    .aboutWhoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+
+    }
+}
+
+.skillsStats {
+    .skillsStatsContent {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+// -------------------------------------------------------------------------------------------
+
+// portfolio page styling
+
+// portfolio landing page section starts here
+.portfolioLandingPage {
+    height: 300px;
+    display: flex;
+    .portfolioLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// portfolio section styling starts here
+.portfolioContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    justify-items: center;
+}
+
+// images styling starts here
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+//   gallery button styling starts here
+.galleryBtn {
+    margin: auto;
+    width: 70%;;
+    padding: 50px;
+    a {
+        padding: 8px 16px;
+    }
+}
+
+//   --------------------------------------------------------------------------------------
+
+// contact page styling
+
+
+// contact landing page section styling starts here
+.contactLandingPage {
+    height: 300px;
+    display: flex;
+    .contactLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.contactForm {
+    padding: 5% 0 5% 0;
+    .form {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        grid-column-gap: 50px;
+        .contactSearchBar {
+            input {
+                width: 180px;
+                margin: 10px 0 10px 0;
+            }
+        }
+        .contactMsgBox {
+            input {
+                height: 170px;
+                width: 560px;
+            }
+        }
+    }
+}
+
+  .map {
+    width: 100%;
+    height: 60vh;
+}
+
+// -----------------------------------------------------------------------------------------------
+
+//   courses page styling starts here
+
+// courses landing page section starts here
+.coursesLandingPage {
+    height: 300px;
+    display: flex;
+    .coursesLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// courses content section styling starts here
+.coursesPageContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    .cartItemsColumn1 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn2 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn3 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.coursesColumns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    justify-items: center;
+    text-align: center;
+}
