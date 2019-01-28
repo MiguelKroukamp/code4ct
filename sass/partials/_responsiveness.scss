@@ -1,0 +1,1022 @@
+// @media (max-width: 900px) {
+//     .courses {
+//         .coursesContent {
+//             display: grid;
+//             grid-template-columns: 1fr 1fr;
+//         }
+//     }
+// }
+
+// @media (max-width: 600px) {
+//     .courses {
+//         .coursesContent {
+//             display: grid;
+//             grid-template-columns: 1fr;
+//         }
+//     }
+// }
+
+// RESPONSIVE FOR TABLET
+@media (max-width: 900px) {
+    // home page styling
+
+// navbar styling starts here
+.navBar {
+    top: 0;
+    display: grid;
+    width: 100%;
+    img {
+    display: none;
+
+    }
+    // links styling for navbar 
+    a {
+        padding: 10px;
+    }    
+    .searchBar {
+        // display: flex;
+        position: initial;
+        // left: 280px;
+    }
+}
+
+// home landing page starts here
+.landingPage {
+    height: 100vh;
+    display: flex;
+    background-image: none;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-color: $grey;
+    .landingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+    // button styling starts here
+    .homePageBtns {
+        display: grid;
+        width: 35%;
+        margin: auto;
+        // grid-column-gap: 5%;
+        grid-row-gap: 5%;
+    }
+    #btn1 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    #btn2 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    // button hover styling
+    #btn1:hover {
+        width: 180px;
+        padding: 5px;
+    }
+    #btn2:hover {
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.whoAreWe {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10%;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    grid-row-gap: 10%
+    img {
+        width: 100%;
+        height: 70%;
+    }
+    .whoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+
+    }
+      button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// courses section styling starts here
+.courses {
+    .coursesContent {
+        width: 70%;
+        padding: 4% 0 4% 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 30px;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    img {
+        width: 15%;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+}
+
+// our exciting courses section styling starts here
+.ourExcitingCourses {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 2.5% 0;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+
+    img {
+        height: auto;
+        width: 100%;;
+    }
+    .imgsContainer{
+        display: inline-flex;
+        margin-top: 30px;
+        #ourExcitingCoursesImgs {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+        }
+    }
+    .spanImg {
+        img{
+
+            margin-left: 19px;
+            display: none;
+        }
+    }
+}
+
+// meet our team section styling starts here
+.meetOurTeam {
+    margin: auto;
+    width: 70%;
+    padding: 2.5% 0 10% 0;
+    text-align: center;
+    #headingMeetOurTeam {
+        display: inline-grid;
+    }
+    img {
+        height: auto;
+        width: 100%;
+    }
+    #meetOurTeamImgs {
+        display: grid;
+        grid-template-columns: auto;
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+
+        }
+    }
+}
+
+// stats section styling starts here
+.stats {
+    height: auto;
+    .statsContent {
+        width: 70%;
+        margin: auto;
+        // display: flex;
+        // justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: auto auto;
+        // height: auto;
+    }
+}
+
+// subscribe section styling starts here
+.subscribe {
+    // padding: 4% 0 4% 0;
+    margin: auto;
+    width: 70%;
+    #submitBtn {
+        display: grid;
+        text-align: center;
+        grid-row-gap: 10%;
+        input {
+            width: 100%;
+            height: 40px;
+            // padding-left: 5%;
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            height: 42px;
+        }
+    }
+}
+
+// carousel section styling starts heres
+.carousel {
+    display: flex;
+    align-items: center;
+    #carouselImgs{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-evenly;
+        height: 222px;
+        align-items: center;
+    }
+    img {
+        height: 27px;
+        width: 137px;
+    }
+}
+
+// footer section styling starts here
+.footerContentContainer {
+    .footerContact {
+        display: grid;
+        margin: auto;
+        width: 70%;
+        justify-content: space-evenly;
+        padding: 4% 0 4% 0;
+        text-align: center;
+        #footerLeft {
+            width: 100%;
+        }
+        h3 {
+            margin-bottom: 0;
+        }
+        #footerRight {
+            line-height: 2.5;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    }
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    .icons {
+        display: inline-flex;
+        align-items: center;
+        img {
+            width: 14px;
+            height: 14px;
+            padding: 0 10px 0 10px;
+        }
+    }
+}
+
+// ------------------------------------------------------------------------------------------------
+
+// about page styling
+
+// about landing page section styling starts here
+.aboutLandingPage {
+    height: 300px;
+    display: flex;
+    .aboutLandingPageContent {
+        margin: auto;
+        width: 70%;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// welcome section styling starts here
+.welcomeSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .welcomeSectionImgs {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        height: auto;
+        grid-gap: 10px;
+      }
+    button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.aboutWhoAreWe {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: #f6f6f6;
+    height: auto;
+    text-align: center;
+    .aboutWhoAreWeContent{
+        margin: auto;
+        width: 70%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .aboutWhoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+
+    }
+}
+
+.skillsStats {
+    .skillsStatsContent {
+        width: 70%;
+        margin: auto;
+        display: grid;
+        // justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+}
+
+// -------------------------------------------------------------------------------------------
+
+// portfolio page styling
+
+// portfolio landing page section starts here
+.portfolioLandingPage {
+    height: 300px;
+    display: flex;
+    .portfolioLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// portfolio section styling starts here
+.portfolioContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-items: center;
+}
+
+// images styling starts here
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+//   gallery button styling starts here
+.galleryBtn {
+    margin: auto;
+    width: 70%;;
+    padding: 50px;
+    a {
+        padding: 8px 16px;
+    }
+}
+
+//   --------------------------------------------------------------------------------------
+
+// contact page styling
+
+
+// contact landing page section styling starts here
+.contactLandingPage {
+    height: 300px;
+    display: flex;
+    .contactLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.contactForm {
+    padding: 5% 0 5% 0;
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        // grid-column-gap: 50px;
+        .contactSearchBar {
+            display: grid;
+            grid-template-columns: 1fr;
+            input {
+                width: 180px;
+                margin: 10px 0 10px 0;
+            }
+        }
+        .contactMsgBox {
+            input {
+                height: 170px;
+                width: 560px;
+            }
+        }
+    }
+}
+
+  .map {
+    width: 100%;
+    height: 60vh;
+}
+
+// -----------------------------------------------------------------------------------------------
+
+//   courses page styling starts here
+
+// courses landing page section starts here
+.coursesLandingPage {
+    height: 300px;
+    display: flex;
+    .coursesLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// courses content section styling starts here
+.coursesPageContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    .cartItemsColumn1 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn2 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn3 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.coursesColumns {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-items: center;
+    text-align: center;
+}
+}
+
+// RESPONSIVE FOR MOBILE
+@media (max-width: 650px) {
+    // home page styling
+
+// navbar styling starts here
+.navBar {
+    top: 0;
+    display: grid;
+    width: 100%;
+    img {
+    display: none;
+
+    }
+    // links styling for navbar 
+    a {
+        padding: 10px;
+    }    
+    .searchBar {
+        // display: flex;
+        position: initial;
+        // left: 280px;
+    }
+}
+
+// home landing page starts here
+.landingPage {
+    height: 100vh;
+    display: flex;
+    background-image: none;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-color: $grey;
+    .landingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+    // button styling starts here
+    .homePageBtns {
+        display: grid;
+        width: 35%;
+        margin: auto;
+        // grid-column-gap: 5%;
+        grid-row-gap: 5%;
+    }
+    #btn1 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    #btn2 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    // button hover styling
+    #btn1:hover {
+        width: 180px;
+        padding: 5px;
+    }
+    #btn2:hover {
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.whoAreWe {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .whoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+
+    }
+      button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// courses section styling starts here
+.courses {
+    .coursesContent {
+        width: 70%;
+        padding: 4% 0 4% 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    img {
+        width: 35%;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+}
+
+// our exciting courses section styling starts here
+.ourExcitingCourses {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 2.5% 0;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    img {
+        height: auto;
+        width: 100%;;
+    }
+    .imgsContainer{
+        display: inline-flex;
+        margin-top: 30px;
+        #ourExcitingCoursesImgs {
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+        }
+    }
+    .spanImg {
+        img{
+
+            margin-left: 19px;
+            display: none;
+        }
+    }
+}
+
+// meet our team section styling starts here
+.meetOurTeam {
+    margin: auto;
+    width: 70%;
+    padding: 2.5% 0 10% 0;
+    text-align: center;
+    #headingMeetOurTeam {
+        display: inline-grid;
+    }
+    img {
+        height: auto;
+        width: 100%;
+    }
+    #meetOurTeamImgs {
+        display: grid;
+        grid-template-columns: auto;
+        .container {
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+
+        }
+    }
+}
+
+// stats section styling starts here
+.stats {
+    height: auto;
+    .statsContent {
+        width: 70%;
+        margin: auto;
+        // display: flex;
+        // justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: auto;
+        // height: auto;
+    }
+}
+
+// subscribe section styling starts here
+.subscribe {
+    // padding: 4% 0 4% 0;
+    margin: auto;
+    width: 70%;
+    #submitBtn {
+        display: grid;
+        text-align: center;
+        grid-row-gap: 10%;
+        input {
+            width: 100%;
+            height: 40px;
+            // padding-left: 5%;
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            height: 42px;
+        }
+    }
+}
+
+// carousel section styling starts heres
+.carousel {
+    display: flex;
+    align-items: center;
+    #carouselImgs{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-evenly;
+        height: 222px;
+        align-items: center;
+    }
+    img {
+        height: 27px;
+        width: 137px;
+    }
+}
+
+// footer section styling starts here
+.footerContentContainer {
+    .footerContact {
+        display: grid;
+        // grid-template-columns: 1fr;
+        margin: auto;
+        width: 70%;
+        justify-content: space-evenly;
+        padding: 4% 0 4% 0;
+        text-align: center;
+        #footerLeft {
+            width: 271px;
+        }
+        h3 {
+            margin-bottom: 0;
+        }
+        #footerRight {
+            line-height: 2.5;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+footer {
+    // display: block;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    grid-template-columns: auto;
+    .icons {
+        display: inline-flex;
+        align-items: center;
+        img {
+            width: 14px;
+            height: 14px;
+            padding: 0 10px 0 10px;
+        }
+    }
+}
+
+// ------------------------------------------------------------------------------------------------
+
+// about page styling
+
+// about landing page section styling starts here
+.aboutLandingPage {
+    height: 300px;
+    display: flex;
+    .aboutLandingPageContent {
+        margin: auto;
+        width: 70%;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// welcome section styling starts here
+.welcomeSection {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .welcomeSectionImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+      }
+    button {
+        height: 30px;
+        width: 130px;
+    }
+    button:hover {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+// who are we section styling starts here
+.aboutWhoAreWe {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: #f6f6f6;
+    height: auto;
+    text-align: center;
+    .aboutWhoAreWeContent{
+        margin: auto;
+        width: 70%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .aboutWhoAreWeImgs {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+
+    }
+}
+
+.skillsStats {
+    .skillsStatsContent {
+        width: 70%;
+        margin: auto;
+        display: grid;
+        // justify-content: space-evenly;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
+
+// -------------------------------------------------------------------------------------------
+
+// portfolio page styling
+
+// portfolio landing page section starts here
+.portfolioLandingPage {
+    height: 300px;
+    display: flex;
+    .portfolioLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// portfolio section styling starts here
+.portfolioContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    justify-items: center;
+}
+
+// images styling starts here
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+//   gallery button styling starts here
+.galleryBtn {
+    margin: auto;
+    width: 70%;;
+    padding: 50px;
+    a {
+        padding: 8px 16px;
+    }
+}
+
+//   --------------------------------------------------------------------------------------
+
+// contact page styling
+
+
+// contact landing page section styling starts here
+.contactLandingPage {
+    height: 300px;
+    display: flex;
+    .contactLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+.contactForm {
+    padding: 5% 0 5% 0;
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        // grid-column-gap: 50px;
+        .contactSearchBar {
+            display: grid;
+            grid-template-columns: 1fr;
+            input {
+                width: 180px;
+                margin: 10px 0 10px 0;
+            }
+        }
+        .contactMsgBox {
+            input {
+                height: 170px;
+                width: 560px;
+            }
+        }
+    }
+}
+
+  .map {
+    width: 100%;
+    height: 60vh;
+}
+
+// -----------------------------------------------------------------------------------------------
+
+//   courses page styling starts here
+
+// courses landing page section starts here
+.coursesLandingPage {
+    height: 300px;
+    display: flex;
+    .coursesLandingPageContent {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+// courses content section styling starts here
+.coursesPageContent {
+    margin: auto;
+    width: 70%;
+    padding: 10% 0 10% 0;
+    .cartItemsColumn1 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn2 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+    .cartItemsColumn3 {
+        margin: 2%;
+        p {
+            padding: 30px;
+        }
+        button {
+            height: 30px;
+            width: 130px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.coursesColumns {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    justify-items: center;
+    text-align: center;
+}
+}
