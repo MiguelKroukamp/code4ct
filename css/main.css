@@ -473,8 +473,6 @@ footer {
   font-size: 1em; }
 .whoAreWe p {
   font-size: 0.875em; }
-.whoAreWe img {
-  border: 1px solid black; }
 .whoAreWe button {
   border-radius: 3px;
   background-color: transparent;
@@ -506,6 +504,13 @@ footer {
   font-weight: 600; }
 .meetOurTeam p {
   font-size: 0.875em; }
+.meetOurTeam .socialIcons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%; }
+  .meetOurTeam .socialIcons a {
+    text-decoration: none;
+    color: #e2a19a; }
 
 .stats {
   text-align: center;
@@ -614,6 +619,10 @@ footer {
 
 .portfolioContent {
   text-align: center; }
+
+.portfolioGallery .portfolioImgs .row .column img img:hover {
+  transition: all 0.9s;
+  transform: scale(1.5); }
 
 .row {
   background-color: #818181; }
