@@ -22,27 +22,20 @@
 
 // navbar styling starts here
 .navBar {
-    top: 0;
-    display: grid;
-    width: 100%;
-    img {
     display: none;
+}
 
-    }
-    // links styling for navbar 
-    a {
-        padding: 10px;
-    }    
-    .searchBar {
-        // display: flex;
-        position: initial;
-        // left: 280px;
-    }
+.mobile {
+    display: block;
+}
+
+.menu {
+    display: block;
 }
 
 // home landing page starts here
 .landingPage {
-    height: 100vh;
+    height: auto;
     display: flex;
     background-image: none;
     // background-size: cover;
@@ -439,14 +432,14 @@ footer {
             display: grid;
             grid-template-columns: 1fr;
             input {
-                width: 180px;
+                width: 100%x;
                 margin: 10px 0 10px 0;
             }
         }
         .contactMsgBox {
             input {
                 height: 170px;
-                width: 560px;
+                width: 100%;
             }
         }
     }
@@ -522,31 +515,23 @@ footer {
 
 // RESPONSIVE FOR MOBILE
 @media (max-width: 650px) {
-    // home page styling
+// home page styling
 
-// navbar styling starts here
 .navBar {
-    top: 0;
-    display: grid;
-    width: 100%;
-    img {
     display: none;
+}
 
-    }
-    // links styling for navbar 
-    a {
-        padding: 10px;
-    }    
-    .searchBar {
-        // display: flex;
-        position: initial;
-        // left: 280px;
-    }
+.mobile {
+    display: block;
+}
+
+.menu {
+    display: block;
 }
 
 // home landing page starts here
 .landingPage {
-    height: 100vh;
+    height: auto;
     display: flex;
     background-image: none;
     // background-size: cover;
@@ -555,6 +540,7 @@ footer {
     .landingPageContent {
         margin: auto;
         width: 70%;
+        font-size: $font-size8;
     }
     // button styling starts here
     .homePageBtns {
@@ -563,6 +549,9 @@ footer {
         margin: auto;
         // grid-column-gap: 5%;
         grid-row-gap: 5%;
+        button {
+            font-size: $font-size8;
+        }
     }
     #btn1 {
         display: inline-block;
@@ -940,14 +929,14 @@ footer {
             display: grid;
             grid-template-columns: 1fr;
             input {
-                width: 180px;
+                width: 100%;
                 margin: 10px 0 10px 0;
             }
         }
         .contactMsgBox {
             input {
                 height: 170px;
-                width: 560px;
+                width: 100%;
             }
         }
     }
