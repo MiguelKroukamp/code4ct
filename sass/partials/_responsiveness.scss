@@ -133,6 +133,7 @@
     display: grid;
     grid-template-columns: auto;
     text-align: center;
+    align-items: center;
 
     img {
         height: auto;
@@ -177,6 +178,13 @@
             grid-template-columns: auto auto;
             grid-gap: 10px;
 
+        }
+    }
+    .socialIcons {
+        a {
+            i {
+                text-align: center;
+            }
         }
     }
 }
@@ -719,6 +727,7 @@ footer {
 .carousel {
     display: flex;
     align-items: center;
+    overflow-x: hidden;
     #carouselImgs{
         display: flex;
         width: 100%;
@@ -726,10 +735,12 @@ footer {
         justify-content: space-evenly;
         height: 222px;
         align-items: center;
+        overflow-x: hidden;
     }
     img {
         height: 27px;
         width: 137px;
+        overflow-x: hidden;
     }
 }
 

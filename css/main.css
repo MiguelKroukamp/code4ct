@@ -835,7 +835,8 @@ footer {
     padding: 10% 0 2.5% 0;
     display: grid;
     grid-template-columns: auto;
-    text-align: center; }
+    text-align: center;
+    align-items: center; }
     .ourExcitingCourses img {
       height: auto;
       width: 100%; }
@@ -867,6 +868,8 @@ footer {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 10px; }
+    .meetOurTeam .socialIcons a i {
+      text-align: center; }
 
   .stats {
     height: auto; }
@@ -1237,17 +1240,20 @@ footer {
 
   .carousel {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    overflow-x: hidden; }
     .carousel #carouselImgs {
       display: flex;
       width: 100%;
       margin: auto;
       justify-content: space-evenly;
       height: 222px;
-      align-items: center; }
+      align-items: center;
+      overflow-x: hidden; }
     .carousel img {
       height: 27px;
-      width: 137px; }
+      width: 137px;
+      overflow-x: hidden; }
 
   .footerContentContainer .footerContact {
     display: grid;
